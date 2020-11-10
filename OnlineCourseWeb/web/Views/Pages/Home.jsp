@@ -229,6 +229,7 @@
                                         <li><a href="#">Human Anatomy</a></li>
                                         <li><a href="#">Literature</a></li>
                                         <li><a href="#">Psychology</a></li>
+                                        <li><a href="#">Public Speaking</a></li>
                                         <li><a href="#">Shakespeare</a></li>
                                     </ul>
                                 </div>

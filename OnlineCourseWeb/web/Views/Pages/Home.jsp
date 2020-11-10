@@ -9,7 +9,7 @@
 <html lang="vi">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="stylesheet" type="text/css" href="../Css/Home.scss" />
+        <link rel="stylesheet" type="text/css" href="Views/Css/Home.scss" />
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
         <title>Trang Chủ</title>
     </head>

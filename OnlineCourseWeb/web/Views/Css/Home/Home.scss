@@ -21,7 +21,7 @@ a:hover {
     margin: 0 auto;
     width: 70%;
 }
-
+s
 .header{
     border-bottom: 1px solid #000000;
 }
@@ -34,7 +34,8 @@ a:hover {
     }
 
 .logo{
-    background: url("../Images/logo.png") no-repeat;
+    /* background: linear-gradient(90deg, #111111, #ffffff); */
+    background: url("../../Images/logo.png") no-repeat;
     background-size: 170px 80px;
     height: 80px;
     width: 170px;
@@ -210,7 +211,7 @@ a:hover {
 
 .logo-university-outstanding-course{
     flex: 25%;
-    background: url("../Images/babson.png") no-repeat;
+    background: url("../../Images/babson.png") no-repeat;
     background-size: 300px 300px;
     min-width: 300px;
     min-width: 300px;
@@ -233,31 +234,31 @@ a:hover {
     }
 
     .university-introduction #logo-ute{
-        background: url("../Images/logoUTE.png") no-repeat;
+        background: url("../../Images/logoUTE.png") no-repeat;
         background-size: 100px 100px;
         background-position: center;
     }
 
     .university-introduction #logo-uit{
-        background: url("../Images/logoUIT.png") no-repeat;
+        background: url("../../Images/logoUIT.png") no-repeat;
         background-size: 100px 100px;
         background-position: center;
     }
 
     .university-introduction #logo-khtn{
-        background: url("../Images/logoKHTN.png") no-repeat;
+        background: url("../../Images/logoKHTN.png") no-repeat;
         background-size: 100px 100px;
         background-position: center;
     }
 
-    .university-introduction #logo-bk{
-        background: url("../Images/logoBK.png") no-repeat;
+    .university-introduction #logo-bk{  
+        background: url("../../Images/logoBK.png") no-repeat;
         background-size: 100px 100px;
         background-position: center;
     }
 
     .university-introduction #logo-hutech{
-        background: url("../Images/logoHutech.png") no-repeat;
+        background: url("../../Images/logoHutech.png") no-repeat;
         background-size: 100px 100px;
         background-position: center;
     }
@@ -341,7 +342,7 @@ a:hover {
     }
 
     .footer .small-container .icon-logo{
-        background: url("../Images/logo.png") no-repeat;
+        background: url("../../Images/logo.png") no-repeat;
         background-size: 240px 120px;
         background-position: center;
         height: 150px;

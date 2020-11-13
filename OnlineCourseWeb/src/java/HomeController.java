@@ -30,7 +30,7 @@ public class HomeController extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-        RequestDispatcher rd = getServletContext().getRequestDispatcher("/Views/Pages/Home.jsp");
+        RequestDispatcher rd = getServletContext().getRequestDispatcher("/Views/Pages/Home/Home.jsp");
         rd.forward(request, response);
     }
 

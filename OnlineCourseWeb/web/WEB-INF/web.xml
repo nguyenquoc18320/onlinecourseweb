@@ -16,6 +16,22 @@
         <servlet-name>HomeController</servlet-name>
         <servlet-class>HomeController</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>SignInController</servlet-name>
+        <servlet-class>Login.SignInController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>GetPasswordController</servlet-name>
+        <servlet-class>Login.GetPasswordController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>changePasswordController</servlet-name>
+        <servlet-class>Login.changePasswordController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SignUpController</servlet-name>
+        <servlet-class>Login.SignUpController</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>dispatcher</servlet-name>
         <url-pattern>*.htm</url-pattern>
@@ -23,6 +39,22 @@
     <servlet-mapping>
         <servlet-name>HomeController</servlet-name>
         <url-pattern>/HomeController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SignInController</servlet-name>
+        <url-pattern>/SignInController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>GetPasswordController</servlet-name>
+        <url-pattern>/GetPasswordController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>changePasswordController</servlet-name>
+        <url-pattern>/changePasswordController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SignUpController</servlet-name>
+        <url-pattern>/SignUpController</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

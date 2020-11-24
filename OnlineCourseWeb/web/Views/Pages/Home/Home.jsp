@@ -17,7 +17,7 @@
     <div class="container">
         <div class="header">
             <div class="small-container">
-                <div class="logo"><a href="home.html"></a></div>
+                <div class="logo"><a href="HomeController"></a></div>
                 <div class="menu-function">
                     <ul>
                         <li><a href="#">Courses</a></li>
@@ -28,10 +28,10 @@
                 <div class="menu-login">
                     <div class="icon-search"><i class="fas fa-search"></i></div>
                     <div class="sign-in">
-                        <input type="button" value="Sign In" id="btnSignIn">
+                        <a href="SignInController"><input type="button" value="Sign In" id="btnSignIn"></a>
                     </div>
                     <div class="register">
-                        <input type="button" value="Register" id="btnRegister">
+                        <a href="SignUpController"><input type="button" value="Register" id="btnRegister"></a>
                     </div>
                 </div>
             </div>  
@@ -275,7 +275,7 @@
         </div>
         <hr>
         <div class="copyright">
-            <span>© 2020 edX Inc. All rights reserved.</span>
+            <span>© 2020 ASQ Inc. All rights reserved.</span>
         </div>
     </div>
 </body>

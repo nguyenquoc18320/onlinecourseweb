@@ -3,6 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package Login;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -16,7 +17,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author TRAN VAN AN
  */
-public class HomeController extends HttpServlet {
+public class changePasswordController extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -31,7 +32,7 @@ public class HomeController extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         request.setCharacterEncoding("utf-8");
-        RequestDispatcher rd = getServletContext().getRequestDispatcher("/Views/Pages/Home/Home.jsp");
+        RequestDispatcher rd = getServletContext().getRequestDispatcher("/Views/Pages/Login/changePassword.jsp");
         rd.forward(request, response);
     }
 

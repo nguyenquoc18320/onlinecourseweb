@@ -9,8 +9,14 @@
 <html lang="vi">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link href="Views/Css/Home/Home.scss" type="text/css" rel="stylesheet">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+        
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        
+        <link href="Views/Css/Home/Home.scss" type="text/css" rel="stylesheet">
+        <link href="Views/Css/common.scss" type="text/css" rel="stylesheet">
+        
         <title>Trang Chủ</title>
     </head>
     <body>

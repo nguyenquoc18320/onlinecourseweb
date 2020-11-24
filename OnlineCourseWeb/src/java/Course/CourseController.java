@@ -32,7 +32,7 @@ public class CourseController extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         request.setCharacterEncoding("utf-8");
-        RequestDispatcher rd = getServletContext().getRequestDispatcher("/Views/Pages/Course/course.jsp");
+        RequestDispatcher rd = getServletContext().getRequestDispatcher("/Views/Pages/Course/CourseIntroduction_Teacher.jsp");
         rd.forward(request, response);
     }
 
